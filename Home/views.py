@@ -22,7 +22,7 @@ def index(request):
 def sign_up(request):
     var = {'f':'fi'}
     if request.method=='POST':
-        # getting use details here
+       
         firstname = request.POST.get('fname',' default')
         lname = request.POST.get('lname','')
         password = request.POST.get('password','')
